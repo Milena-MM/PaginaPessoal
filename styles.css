@@ -57,6 +57,10 @@ color: indigo;
    
 }
 
+#ola img{
+ width:120px;
+}
+
 .blocosobre{
     display: flex;
     align-items: center;
