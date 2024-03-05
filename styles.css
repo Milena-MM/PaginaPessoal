@@ -8,24 +8,51 @@ padding: 0;
 
 header{
 width: 100%;
+box-shadow: 5px 5px 5px #b179b5;
 }
 
  #cabecalho ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: Thistle;
-    height: 45px;
-    font-size: 2em;
+    height: 70px;
+    font-size: 25px;
+   color:black;
+   
    
  }
 
+ #cabecalho ul i {
+    background-color: thistle;
+    width: 30px;
+    
+ }
+
+ #cabecalho ul li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: .2s;
+    color: white;
+    
+ }
+
+
  #cabecalho ul li{
-background-color: Thistle;
+background-color: transparent;
 display: flex;
-justify-content: space-around;
 align-items: center;
 font-family: 'Nunito', sans-serif;
-color: indigo;
+color: black;
+position: relative;
+left: 20px;
+border-radius: 0%;
+
+}
+#cantoMenu{
+    background-color: Thistle;
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
 }
 
  #ola{
@@ -72,6 +99,7 @@ color: indigo;
     border-radius: 45px;
     font-family: 'Bad Script', cursive;
     box-shadow: 5px 5px 5px #b179b5;
+
 }
 
 .blocosobre p{
@@ -80,8 +108,11 @@ color: indigo;
 }
 
 .blocosobre h1{
-    font-size: 90px;
+    font-size: 49px;
     font-family: 'Playball', cursive;
+    top: 0%;
+    
+   height: 300px;
    
 }
 
